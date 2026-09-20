@@ -19,6 +19,8 @@ int main(int argc, char* argv[]) {
         std::cerr << "Failed to parse command line arguments." << std::endl;
         return 1;
     }
+    std::cout << r_name << "\n" << start_date << "\n" << end_date << "\n" << num_threads << "\n";
+
 
     std::vector<std::map<std::string, std::string>> customer_data, orders_data, lineitem_data, supplier_data, nation_data, region_data;
 
