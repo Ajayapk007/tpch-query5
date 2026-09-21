@@ -2,7 +2,9 @@
 
 ./tpch_query5 --r_name ASIA --start_date 1994-01-01 --end_date 1995-01-01 --threads 4 --table_path /tmp --result_path /tmp/out.txt
 
-/home/blacky/cpp/tpch-dbgen
+/home/blacky/cpp/test sf0.01
+
+/home/blacky/cpp/tpch-dbgen sf2
 
 ## Overview
 Task is to implement TPCH Query 5 using C++ and multithreading. 
